@@ -57,7 +57,7 @@ export default function Home() {
         <Text style={styles.textoNome}> {user && user.nome} </Text>
         <Text style={styles.textoSaldo}> R$ {saldo.toFixed(2)} </Text>
 
-        <Text style={styles.textoUltimas}> Ultimas movimentações </Text> 
+        <Text style={styles.textoUltimas}> Últimas movimentações </Text> 
 
         <FlatList 
         style={styles.lista}
