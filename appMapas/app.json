@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "appMapas",
+    "slug": "appMapas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAijpz__DGfwjF8HCT7iej7SsJMIFLVQj4"
+      }
+      
+    },
+    "android": {
+      "config":{
+        "googleMaps":{
+          "apiKey": "AIzaSyAijpz__DGfwjF8HCT7iej7SsJMIFLVQj4"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
